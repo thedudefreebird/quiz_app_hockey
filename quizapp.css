@@ -1,3 +1,39 @@
 * {
   box-sizing: border-box;
 }
+/*Intro portion of the app*/
+.intro {
+  border: 5px;
+  border-style: solid;
+  padding-top: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
+  height: 300px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  border: 2px;
+  border-style: dashed;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#start_button {
+  display: block;
+  margin-left: auto;
+  margin-right: 10px;
+}
+/*Intro portion of the app*/
+
+/*First question of the app*/
+h2 {
+  display: flex;
+  justify-content: center;
+}
