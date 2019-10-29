@@ -8,7 +8,7 @@
   padding-top: 20px;
   margin-left: 25px;
   margin-right: 25px;
-  height: 300px;
+  height: 300px
 }
 
 h1 {
@@ -62,3 +62,44 @@ input[type="submit"]{
   margin-top: 100px;
 }
 /*First question of the app*/
+
+/*Correct Answer page of the app*/
+.correct_answer{
+  border: 5px;
+  border-style: solid;
+  padding-top: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
+  height: 300px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+#next_button {
+    display: block;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 65px;
+}
+/*Correct Answer page of the app*/
+
+/*Final Score page of the app*/
+.final_score{
+  border: 5px;
+  border-style: solid;
+  padding-top: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
+  height: 300px;
+}
+
+#restart_quiz {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+}
+/*Final Score page of the app*/
