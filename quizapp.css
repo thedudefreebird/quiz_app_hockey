@@ -29,11 +29,36 @@ p {
   display: block;
   margin-left: auto;
   margin-right: 10px;
+  margin-top: 65px;
 }
 /*Intro portion of the app*/
 
 /*First question of the app*/
+form{
+  border: 5px;
+  border-style: solid;
+  padding-top: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
+  height: 300px;
+}
+
 h2 {
   display: flex;
   justify-content: center;
 }
+
+input[type="radio"]{
+  order: 1;
+  flex: none;
+  width: auto;
+  margin-left: 30%;
+}
+
+input[type="submit"]{
+  display: block;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top: 100px;
+}
+/*First question of the app*/
